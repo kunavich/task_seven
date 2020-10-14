@@ -17,26 +17,36 @@ import by.kunavich.task7.view.ResultPrinter;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 
 /**
  *
  * @author Lord
  */
 public class Controller {
-     public static void run() {
+
+
+
+    static Logger LOGGER = Logger.getLogger(Controller.class);
+
+
+
+     public List<Double> runSquare(String fileName) {
 
          // get
-
+         LOGGER.info("initiate");
          DataAcquirer dataAcquirer = new FileDataAcquirer();
-
+         LOGGER.info("Acquir data Acquirer");
          List<String> strings = new ArrayList<>();
+
          try {
-
-
-             strings = dataAcquirer.getData("text.txt");
+             strings = dataAcquirer.getData(fileName);
          } catch ( DataException e)         {
+             LOGGER.error(e.getMessage(),e);
 
          }
+         LOGGER.info("get strings");
          Parser parser =new Parser();
          List<Ellipse> ellipses = new ArrayList<>();
          for (String line:strings) {
@@ -44,17 +54,98 @@ public class Controller {
                  Ellipse ellipse = parser.parse(line);
                  ellipses.add(ellipse);
              } catch (DataException e)      {
-
+                 LOGGER.error(e.getMessage(),e);
              }
          }
+         LOGGER.info("get ellipses");
+         List<Double> squares = new ArrayList<>();
+
          //count
          Calculator calculator = new Calculator();
          for (Ellipse ellipse :ellipses) {
              double square = calculator.square(ellipse);
-             double perimetr =calculator.perimetr(ellipse);
+             LOGGER.info("square : "+ square);
+             squares.add(square);
          }
+         LOGGER.info("end of program");
+         return squares;
+    }
 
+    public List<Double> runPerimetr(String fileName) {
 
+        // get
+        LOGGER.info("initiate");
+        DataAcquirer dataAcquirer = new FileDataAcquirer();
+        LOGGER.info("Acquir data Acquirer");
+        List<String> strings = new ArrayList<>();
 
+        try {
+            strings = dataAcquirer.getData(fileName);
+        } catch ( DataException e)         {
+            LOGGER.error(e.getMessage(),e);
+        }
+        LOGGER.info("get strings");
+        Parser parser =new Parser();
+        List<Ellipse> ellipses = new ArrayList<>();
+        for (String line:strings) {
+            try {
+                Ellipse ellipse = parser.parse(line);
+                ellipses.add(ellipse);
+            } catch (DataException e)      {
+                LOGGER.error(e.getMessage(),e);
+            }
+        }
+        LOGGER.info("get ellipses");
+        List<Double> perimetrs = new ArrayList<>();
+        Calculator calculator = new Calculator();
+
+        //count
+        for (Ellipse ellipse :ellipses) {
+
+            double perimetr =calculator.perimetr(ellipse);
+            LOGGER.info("perimetr : "+ perimetr);
+            perimetrs.add(perimetr);
+        }
+        LOGGER.info("end of program");
+        return perimetrs;
+    }
+
+    public  List<Boolean> runCrossAxis(String fileName) {
+
+        // get
+        LOGGER.info("initiate");
+        DataAcquirer dataAcquirer = new FileDataAcquirer();
+        LOGGER.info("Acquir data Acquirer");
+        List<String> strings = new ArrayList<>();
+
+        try {
+            strings = dataAcquirer.getData(fileName);
+        } catch ( DataException e)         {
+            LOGGER.error(e.getMessage(),e);
+
+        }
+        LOGGER.info("get strings");
+        Parser parser =new Parser();
+        List<Ellipse> ellipses = new ArrayList<>();
+        for (String line:strings) {
+            try {
+                Ellipse ellipse = parser.parse(line);
+                ellipses.add(ellipse);
+            } catch (DataException e)      {
+                LOGGER.error(e.getMessage(),e);
+            }
+        }
+        LOGGER.info("get ellipses");
+        List<Boolean> booleans = new ArrayList<>();
+        Calculator calculator = new Calculator();
+
+        //count
+        for (Ellipse ellipse :ellipses) {
+            boolean b =calculator.isEllipseCrossAxis(ellipse,5.0);
+            LOGGER.info("is Ellipse Cross one Axis : "+ b);
+            booleans.add(b);
+        }
+        LOGGER.info("end of program");
+        return booleans;
     }
 }

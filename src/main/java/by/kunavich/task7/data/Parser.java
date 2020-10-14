@@ -10,17 +10,23 @@ public class Parser {
 
         String[] split =line.split(" ");
         if(split.length!=4)            {
-            throw new DataException("line Wrong: "+line );
+            throw new DataException("line Wrong not 4 length : "+line );
         }
+        try{
         double topRightX =Double.parseDouble(split[0]);
         double topRightY =Double.parseDouble(split[1]);
         double buttomLeftX =Double.parseDouble(split[2]);
         double buttomLeftY =Double.parseDouble(split[3]);
+
         Point a= new Point(topRightX,topRightY);
         Point b= new Point(buttomLeftX,buttomLeftY);
-        if(!validator.isEllipsePosoble(a,b)){
-            throw new DataException("line Wrong: "+line );
+        if(!validator.isEllipsePosoble(b,a)) {
+            throw new DataException("line Wrong isn't posoble: " + line);
         }
-        return new Ellipse(a,b);
+        return new Ellipse(b,a);
+        } catch (NumberFormatException e) {
+            throw new DataException("line Wrong double parse: "+line,e );
+
+        }
     }
 }

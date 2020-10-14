@@ -7,7 +7,7 @@ public class Ellipse {
     private double b;
     private Point center;
 
-    public Ellipse(Point topRight, Point bottomLeft)
+    public Ellipse(Point bottomLeft, Point topRight)
     {
         this.b =(topRight.getY() - bottomLeft.getY())/2;
         this.a =(topRight.getX() - bottomLeft.getX())/2;

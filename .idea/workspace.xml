@@ -35,6 +35,58 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task7.Controller" />
+      <module name="task_seven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_seven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.lunavich.task7.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.lunavich.task7.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.lunavich.task7.logic.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_seven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.lunavich.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.lunavich.task7" />
+      <option name="MAIN_CLASS_NAME" value="by.lunavich.task7.ControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.ControllerTest" />
+        <item itemvalue="Application.Controller" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,5 +115,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602626105616" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602688223107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223107" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1602688223106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223106" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1602688223106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223106" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1602688223106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223106" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1602688127116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127116" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1602688127115">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127115" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1602688127115">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127115" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1602688127116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127116" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1602627085284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1602627085284" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/task7/logic/Validator.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/task_seven$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1602684870393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>by.lunavich.task7.*</FILTER>
+    </SUITE>
   </component>
 </project>

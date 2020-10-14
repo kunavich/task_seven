@@ -10,13 +10,13 @@ public class Validator {
     {
 
 
-        if (a.getY() == a.getY())       {
+        if (a.getY() == b.getY())       {
             return false;
         }
-        if (a.getX() == a.getX())       {
+        if (a.getX() == b.getX())       {
             return false;
         }
-        Ellipse ellipse = new Ellipse(a,b);
+        Ellipse ellipse = new Ellipse(b,a);
         if (ellipse.getA()<=0)          {
             return false;
         }
