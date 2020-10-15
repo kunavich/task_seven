@@ -5,6 +5,12 @@ import by.kunavich.task7.entity.Point;
 import by.kunavich.task7.logic.Validator;
 
 public class Parser {
+
+    public static final int topRightPositionX = 0;
+    public static final int topRightPositionY = 1;
+    public static final int buttomLeftPositionX = 2;
+    public static final int buttomLeftPositionY = 3;
+
     public Ellipse parse (String line) throws DataException {
         Validator validator= new Validator() ;
 
@@ -13,10 +19,10 @@ public class Parser {
             throw new DataException("line Wrong not 4 length : "+line );
         }
         try{
-        double topRightX =Double.parseDouble(split[0]);
-        double topRightY =Double.parseDouble(split[1]);
-        double buttomLeftX =Double.parseDouble(split[2]);
-        double buttomLeftY =Double.parseDouble(split[3]);
+        double topRightX =Double.parseDouble(split[topRightPositionX]);
+        double topRightY =Double.parseDouble(split[topRightPositionY]);
+        double buttomLeftX =Double.parseDouble(split[buttomLeftPositionX]);
+        double buttomLeftY =Double.parseDouble(split[buttomLeftPositionY]);
 
         Point a= new Point(topRightX,topRightY);
         Point b= new Point(buttomLeftX,buttomLeftY);
