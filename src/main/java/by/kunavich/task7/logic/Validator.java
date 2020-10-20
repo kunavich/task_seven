@@ -27,22 +27,7 @@ public class Validator {
         return true;
 
     }
-    public boolean isEllipse(Ellipse ellipse)
-    {
-        return !isСircle(ellipse);
 
-    }
-    public boolean isСircle(Ellipse ellipse)
-    {
-
-        if (ellipse.getA() != ellipse.getB())
-        {
-            return false;
-        }
-
-        return true;
-
-    }
 
 
 }

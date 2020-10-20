@@ -10,15 +10,12 @@ import by.kunavich.task7.data.Parser;
 import by.kunavich.task7.data.dataAcquirer.DataAcquirer;
 import by.kunavich.task7.data.dataAcquirer.FileDataAcquirer;
 import by.kunavich.task7.entity.Ellipse;
-import by.kunavich.task7.logic.Calculator;
-import by.kunavich.task7.view.ConcoleResultPrinter;
-import by.kunavich.task7.view.ResultPrinter;
+import by.kunavich.task7.logic.EllipseCalculator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.xml.DOMConfigurator;
 
 /**
  *
@@ -61,9 +58,9 @@ public class Controller {
          List<Double> squares = new ArrayList<>();
 
          //count
-         Calculator calculator = new Calculator();
+         EllipseCalculator ellipseCalculator = new EllipseCalculator();
          for (Ellipse ellipse :ellipses) {
-             double square = calculator.square(ellipse);
+             double square = ellipseCalculator.square(ellipse);
              LOGGER.info("square : "+ square);
              squares.add(square);
          }
@@ -97,12 +94,12 @@ public class Controller {
         }
         LOGGER.info("get ellipses");
         List<Double> perimetrs = new ArrayList<>();
-        Calculator calculator = new Calculator();
+        EllipseCalculator ellipseCalculator = new EllipseCalculator();
 
         //count
         for (Ellipse ellipse :ellipses) {
 
-            double perimetr =calculator.perimetr(ellipse);
+            double perimetr = ellipseCalculator.perimetr(ellipse);
             LOGGER.info("perimetr : "+ perimetr);
             perimetrs.add(perimetr);
         }
@@ -137,11 +134,11 @@ public class Controller {
         }
         LOGGER.info("get ellipses");
         List<Boolean> booleans = new ArrayList<>();
-        Calculator calculator = new Calculator();
+        EllipseCalculator ellipseCalculator = new EllipseCalculator();
 
         //count
         for (Ellipse ellipse :ellipses) {
-            boolean b =calculator.isEllipseCrossAxis(ellipse,5.0);
+            boolean b = ellipseCalculator.isEllipseCrossAxis(ellipse,5.0);
             LOGGER.info("is Ellipse Cross one Axis : "+ b);
             booleans.add(b);
         }

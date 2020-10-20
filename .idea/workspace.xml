@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +36,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.kunavich.task7.data.Comporator" />
+      <recent name="by.kunavich.task7.data.specification" />
+      <recent name="by.kunavich.task7.logic" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.kunavich.task7.logic" />
+      <recent name="by.kunavich.task7.data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EllipseCalculatorTest">
     <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.kunavich.task7.Controller" />
       <module name="task_seven" />
@@ -45,21 +57,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_seven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.lunavich.task7.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.lunavich.task7.logic" />
-      <option name="MAIN_CLASS_NAME" value="by.lunavich.task7.logic.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,9 +76,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EllipseCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_seven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.lunavich.task7.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.lunavich.task7.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.lunavich.task7.logic.EllipseCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.EllipseCalculatorTest" />
         <item itemvalue="JUnit.ControllerTest" />
         <item itemvalue="Application.Controller" />
       </list>
@@ -99,58 +111,68 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1602622669164">
+    <state x="445" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1603226700797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="445" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1603226700797" />
     <state x="445" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602622669164" />
     <state x="466" y="232" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602625150628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="232" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1602625150628" />
-    <state x="308" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602621727390">
+    <state x="308" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603225693328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="308" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1603225693328" />
     <state x="308" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1602621727389" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602626105616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602626105616" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602688223107">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1602778852956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223107" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1602688223106">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852956" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1602778852955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223106" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1602688223106">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852955" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1602778852955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223106" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1602688223106">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852955" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1602778852955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688223106" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1602688127116">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852955" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1602778852957">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127116" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1602688127115">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852957" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1602778852956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127115" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1602688127115">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852956" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1602778852956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127115" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1602688127116">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852956" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1602778852956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602688127116" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1602778852956" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1602627085284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1602627085284" />
+    <state x="479" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1603223538276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1603223538276" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603225046735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1603225046735" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/task_seven$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1602684870393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
