@@ -49,4 +49,15 @@ public class Point {
                 ", Y=" + Y +
                 '}';
     }
+
+    public int compareTo(Point secondCenter) {
+        double y =getY();
+        double x =getX();
+        Double length =Math.sqrt(x*x + y*y);
+
+        double y2 =secondCenter.getY();
+        double x2 =secondCenter.getX();
+        Double length2 =Math.sqrt(x2*x2 + y2*y2);
+        return length.compareTo(length2) ;
+    }
 }
